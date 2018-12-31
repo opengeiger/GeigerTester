@@ -7,5 +7,5 @@ For testing use an additional, separate Arduino board to upload this Geiger test
 connect pin 8 of the tester board to the interrupt input pin of your target Geiger counter board.
 
 This Geiger tester however neglects the fact that the delays between true Geiger pulses are arbitrarily distributed in time 
-and that delays between pulses can be infitesimally small. Therefore this test is incomplete but when you test your geiger 
+and that delays between pulses can be infinitesimally small. Therefore this test is incomplete, but when you test your geiger 
 counter software with various cpm values from very low to the max. count rate you can be quite sure it has enough dynamics.
